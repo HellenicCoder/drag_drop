@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:wght@400;500;600&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f6f7fb;
+}
+.container{
+display: flex;
+gap: 10px;
+flex-wrap: wrap;
+width: 420px;
+justify-content: center;
+}
+.container .box{
+   position: relative;
+   height: 160px;
+   width: 160px;
+   
+   border: 2px solid #333; 
+}
+.box .image{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    border-radius: 12px;
+    background-position: center;
+    background-image: url("girl2.jpg");
+}
+.box.hovred{
+    border: 2px dashed #333;
+}
